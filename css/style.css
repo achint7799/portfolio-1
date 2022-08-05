@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=IBM+Plex+Mono:wght@600&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Orbitron&family=Oswald:wght@200;400&family=Poppins:wght@100;200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+
+
+body{
+    background-image: url("../assets/grn.jpg");
+    background-size: contain;
+}
+
+header{
+
+}
+nav{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo img{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+.list1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    width: 400px;
+   
+
+}
+.list1 a   {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(246, 246, 246);
+}
+.list1 a:hover{
+    color: rgb(90, 125, 241);  
+    text-shadow: 2px 2px 2px rgb(179, 178, 178);
+}
+.list1 a:active {
+    color: rgb(49, 245, 46);
+    background-color: rgb(247, 237, 130);
+}
+
+.list-items{
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+}
+/* Main Part */
+
+.heading{
+    margin-top: 100px;
+    padding: 50px 50px 10px 50px;
+    width: 40%;
+    font-size: 40px;
+    color: #383CC1;
+    font-family: "IBM Plex Mono";
+    text-shadow: 2px 2px 5px rgb(29, 69, 230);
+
+}
+
+.description{
+    padding: 10px 50px 50px 50px;
+    color: #03203C;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-shadow: 2px 2px 2px rgb(97, 99, 107);
+    font-family: "Oswald";
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 1500px;
+    max-width: 900px;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-left: 280px;
+
+}
+
+.head-pro{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald";
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+
+}
+.pro{
+    width: 200px;
+    align-items: center;
+    height: 300px;
+    background-color:rgba(255, 255, 255, 0.258);
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+    padding: 5px;
+    
+
+}
+.pro:hover{
+    background-color: rgba(251, 251, 251, 0.919);
+    box-shadow: 5px 5px 5px rgb(177, 167, 167);
+}
+
+.headd{
+    font-family: "Oswald";
+    color: #383CC1;
+    font-size: 20px;
+}
+
+.picc{
+    border-radius: 10px;
+
+}
+
+
+
+.dess{
+    font-family: "Roboto";
+    margin-top: -10px;
+    color: #000000;
+
+}
+.conn {
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.conn a{
+    text-decoration: none;
+    font-weight: 900;
+}
+.conn button{
+    font-weight: 900;
+    
+}
+
+.conn button:hover{
+    color: #ffffff;
+    background-color: rgb(22, 178, 240);
+}
+.conn button:active{
+    background-color: #ffffff;
+    color: rgb(22, 178, 240);
+
+
+}
+.linknc {
+    display: flex;
+    width: 50px;
+}
+
+.linkgc{
+
+}
+
+.pro-1{
+    display: flex;
+    flex-direction: column;
+   
+}
+.pic-1{
+    width: 180px;
+   
+    
+}
+
+.head-1{
+    
+
+}
+
+.des-1{
+   
+    
+
+}
+.connect-1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.link-net{
+    display: flex;
+    width: 50px;
+    height: 30px;
+
+}
+.link-git{
+   
+    display: flex;
+    width: 50px;
+
+}
+/* pro-2 */
+.pro-2{
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+.pic-2{
+    width: 150px;
+}
+
+.head-2{
+
+}
+
+.des-2{
+   
+}
+.connect-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link-net{ 
+    display: flex;
+    width: 50px;
+    height: 30px;
+}
+
+.link-git{
+    display: flex;
+    width: 50px;
+}
+
+/* pro-3 */
+.pro-3{
+    display: flex;
+    flex-direction: column;
+    
+}
+.pic-3{
+    width: 150px;
+}
+
+.head-3{
+
+}
+
+.des-3{
+    
+
+}
+.connect-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link-net{
+    display: flex;
+    width: 50px;
+    height: 30px;
+
+}
+.link-git{
+    display: flex;
+    width: 50px;
+}
+
+
+/* pro-4 */
+
+.pro-4{
+    display: flex;
+    flex-direction: column;
+   
+}
+.pic-4{
+    width: 150px;
+}
+
+.head-4{
+
+}
+
+.des-4{
+   
+
+}
+.connect-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.link-net{ 
+    display: flex;
+    width: 50px;
+    height: 30px;
+
+}
+.link-git{
+    display: flex;
+    width: 50px;
+
+}
+
+/* peo-5 */
+.pro-5{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+   
+}
+.pic-5{
+    width: 150px;
+}
+
+.head-5{
+
+}
+
+.des-5{
+   
+
+}
+.connect-5{
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.link-net{ 
+    display: flex;
+    width: 50px;
+    height: 30px;
+
+}
+
+.link-git{
+    display: flex;
+    width: 50px;
+
+}
+/* pro6 */
+.pro-6{
+    display: flex;
+    flex-direction: column;
+    
+}
+.pic-6{
+    width: 150px;
+}
+
+.head-6{
+
+}
+
+.des-6{
+   
+}
+.connect-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link-net{   
+    display: flex;
+    width: 50px;
+    height: 30px;
+
+}
+.link-git{
+    display: flex;
+    width: 50px;
+
+}
+
+
+/* pro-7 */
+.pro-7{
+    display: flex;
+    flex-direction: column;
+   
+}
+.pic-7{
+    width: 150px;
+}
+
+.head-7{
+
+}
+
+.des-7{
+   
+
+}
+.connect-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.link-net{
+    display: flex;
+    width: 50px;
+    height: 30px;
+
+}
+.link-git{
+    display: flex;
+    width: 50px;
+
+}
+
+/* pro-8 */
+.pro-8{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.pic-8{
+    width: 150px;
+    height: 100px;
+   
+}
+
+.head-8{
+
+}
+
+.des-8{
+   
+}
+.connect-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link-net{
+    display: flex;
+    width: 50px;
+    height: 30px;
+}
+.link-git{
+    display: flex;
+    width: 50px;
+
+}
+
+/* pro-9 */
+.pro-9{
+    display: flex;
+    flex-direction: column;
+   
+}
+.pic-9{
+    width: 150px;
+}
+
+.head-9{
+
+}
+
+.des-9{
+
+}
+.connect-9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link-net{
+    display: flex;
+    width: 50px;
+    height: 30px;
+
+}
+.link-git{
+    display: flex;
+    width: 50px;
+
+}
+/* pro10 */
+.pro-10{
+    display: flex;
+    flex-direction: column;
+   
+}
+.pic-10{
+    width: 150px;
+}
+
+.head-10{
+
+}
+
+.des-10{
+
+}
+.connect-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.link-net{
+    display: flex;
+    width: 50px;
+    height: 30px;
+
+}
+.link-git{
+    display: flex;
+    width: 50px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.foothead{
+    display: flex;
+    flex-direction: row;
+    transform: translate();
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 20px;
+    
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;    
+}
+
+.email{
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.email:hover{
+    background-color: #ffffffad;
+}
+
+.github{
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.github:hover{
+    background-color: #ffffffad;
+}
+
