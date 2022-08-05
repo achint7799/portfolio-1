@@ -327,10 +327,9 @@ nav{
 
 /* peo-5 */
 .pro-5{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
-   
+     
 }
 .pic-5{
     width: 150px;
